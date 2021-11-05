@@ -1,0 +1,60 @@
+('C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+ 'Resize-Images\\build\\ResizeImage\\ResizeImage.pkg',
+ {'BINARY': 1,
+  'DATA': 1,
+  'EXECUTABLE': 1,
+  'EXTENSION': 1,
+  'PYMODULE': 1,
+  'PYSOURCE': 1,
+  'PYZ': 0,
+  'SPLASH': 1},
+ [('PYZ-00.pyz',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\build\\ResizeImage\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\Sheep\\AppData\\Local\\Programs\\Python\\Python310\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyimod04_ctypes',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PyInstaller\\loader\\pyimod04_ctypes.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('ResizeImage',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\ResizeImage.py',
+   'PYSOURCE')],
+ True,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
