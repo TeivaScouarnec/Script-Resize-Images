@@ -45,14 +45,37 @@ def rezise(path1):
         for pic in pictures:
             picResize = Image.open(path1 +'\\' + str(pic))
             picResize.thumbnail(size=Size)
-            picResize.save( path1 + FolderThumbnails + pic.split(".")[0] +"-thumbnail" + ".png","png")
+            picResize.save( path1 + FolderThumbnails + str(pic) + ".png","png")
         print ("[Script] Vignettes crées et placer dans le dosier Thumbnails")
         print ("--------------------------------------------------------")
-        restart()
+        WriteFile(path1,pictures)
     else:
         print("[Script] Erreur! Dossier ou image non trouvé!")
         print ("--------------------------------------------------------")
         restart()
+
+#Ecris dans un fichier, les balises pour intégrer les élements
+def WriteFile(folder,files):
+    path2 = folder
+    pictures = files
+    fileText = "GetScriptHTML.txt"
+    PathFolder = (str(path2).split("img"))
+
+    print("[Script] Voulez-vous un fichier texte comprenant les balises?")
+    choice = str(input("[y/n]"))
+    if choice == ("y" or "Y"):
+        f = open(str(path2) + "\\" + fileText,"w")
+        for i in pictures:
+            path = str(str("..\\img\\") + PathFolder[1] + '\\' + str(i))
+            paththumbnails = str(str("..\\img\\") + PathFolder[1] + '\\thumbnails\\' + str(i))
+            f.write(("<a href=" + "'" + path + "'" + str(" data-lightbox= ''") + str(" data-title=") + "'" + str(i) + "'" + str("> <img class= ") + "'" + str("illustrations") + "'" + str(" src=") + "'" + paththumbnails + "'" + str(" alt=") + "'" + str(i) + "'" + str("></a>" + "\n")))
+        f.close()
+        restart()
+    elif choice == ("n" or "N"):
+        restart()
+    else:
+        return WriteFile(folder=path2)
+    
 
 #Rejoues le script ou non
 def restart():
