@@ -43,9 +43,10 @@ def rezise(path1):
             print ("[Script] dossier Créé!")
         print ("--------------------------------------------------------")
         for pic in pictures:
+            namepic = str(pic).split(".png")
             picResize = Image.open(path1 +'\\' + str(pic))
             picResize.thumbnail(size=Size)
-            picResize.save( path1 + FolderThumbnails + str(pic) + ".png","png")
+            picResize.save( path1 + FolderThumbnails + namepic[0] + ".png","png")
         print ("[Script] Vignettes crées et placer dans le dosier Thumbnails")
         print ("--------------------------------------------------------")
         WriteFile(path1,pictures)

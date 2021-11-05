@@ -660,50 +660,30 @@
   ('multiprocessing',
    'C:\\Users\\Sheep\\AppData\\Local\\Programs\\Python\\Python310\\lib\\multiprocessing\\__init__.py',
    'PYMODULE'),
-  ('_py_abc',
-   'C:\\Users\\Sheep\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
-   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\Sheep\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
    'PYMODULE'),
   ('tracemalloc',
    'C:\\Users\\Sheep\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
    'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Sheep\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
+   'PYMODULE'),
   ('PIL.Image',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\Image.py',
    'PYMODULE'),
-  ('PIL.DdsImagePlugin',
+  ('PIL.IptcImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
    'PYMODULE'),
   ('PIL.ImageFile',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\ImageFile.py',
    'PYMODULE'),
-  ('PIL.EpsImagePlugin',
+  ('PIL.DcxImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BufrStubImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PalmImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MspImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\MspImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcoImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.WmfImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.SpiderImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
@@ -713,6 +693,10 @@
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\ImageTk.py',
    'PYMODULE'),
+  ('PIL.DdsImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\DdsImagePlugin.py',
+   'PYMODULE'),
   ('PIL.WebPImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\WebPImagePlugin.py',
@@ -721,45 +705,133 @@
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\XbmImagePlugin.py',
    'PYMODULE'),
-  ('PIL.SunImagePlugin',
+  ('PIL.PcxImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\SunImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.DcxImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\DcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FpxImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PcdImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.McIdasImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XVThumbImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PsdImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpegImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
    'PYMODULE'),
   ('PIL.TgaImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\TgaImagePlugin.py',
    'PYMODULE'),
+  ('PIL.BlpImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\ImImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.BufrStubImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\BufrStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FpxImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\FpxImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.ImtImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcoImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\IcoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GbrImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MicImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\MicImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.CurImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\CurImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XpmImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpegImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\MpegImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MspImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\MspImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.WmfImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\WmfImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.XVThumbImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\XVThumbImagePlugin.py',
+   'PYMODULE'),
   ('PIL.SgiImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\SgiImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Hdf5StubImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PsdImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\PsdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.IcnsImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.features',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\features.py',
+   'PYMODULE'),
+  ('PIL.FtexImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PixarImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.FliImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\FliImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.MpoImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PalmImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\PalmImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.GribStubImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.PcdImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\PcdImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.Jpeg2KImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.SunImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\SunImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.McIdasImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\McIdasImagePlugin.py',
+   'PYMODULE'),
+  ('PIL.EpsImagePlugin',
+   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
+   'Resize-Images\\env\\lib\\site-packages\\PIL\\EpsImagePlugin.py',
    'PYMODULE'),
   ('PIL.PdfImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
@@ -773,81 +845,9 @@
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\ImageSequence.py',
    'PYMODULE'),
-  ('PIL.MicImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\MicImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Hdf5StubImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\Hdf5StubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.Jpeg2KImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\Jpeg2KImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IcnsImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\IcnsImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.features',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\features.py',
-   'PYMODULE'),
-  ('PIL.ImImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\ImImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.ImtImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\ImtImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PixarImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\PixarImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.XpmImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\XpmImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GribStubImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\GribStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FtexImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\FtexImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.GbrImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\GbrImagePlugin.py',
-   'PYMODULE'),
   ('PIL.FitsStubImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PIL\\FitsStubImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.BlpImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\BlpImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.FliImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\FliImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.CurImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\CurImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.PcxImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\PcxImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.MpoImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\MpoImagePlugin.py',
-   'PYMODULE'),
-  ('PIL.IptcImagePlugin',
-   'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
-   'Resize-Images\\env\\lib\\site-packages\\PIL\\IptcImagePlugin.py',
    'PYMODULE'),
   ('PIL.TiffImagePlugin',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
