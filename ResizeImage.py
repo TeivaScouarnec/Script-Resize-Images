@@ -46,9 +46,9 @@ def rezise(path1):
             picResize = Image.open(path1 +'\\' + str(pic))
             picResize.thumbnail(size=Size)
             picResize.save( path1 + FolderThumbnails + pic.split(".")[0] +"-thumbnail" + ".png","png")
-            print ("[Script] Vignettes crées et placer dans le dosier Thumbnails")
-            print ("--------------------------------------------------------")
-            restart()
+        print ("[Script] Vignettes crées et placer dans le dosier Thumbnails")
+        print ("--------------------------------------------------------")
+        restart()
     else:
         print("[Script] Erreur! Dossier ou image non trouvé!")
         print ("--------------------------------------------------------")
