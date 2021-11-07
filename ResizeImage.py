@@ -43,7 +43,7 @@ def rezise(path1):
             print ("[Script] dossier Créé!")
         print ("--------------------------------------------------------")
         for pic in pictures:
-            namepic = str(pic).split(".png")
+            namepic = str(pic).split(".")
             picResize = Image.open(path1 +'\\' + str(pic))
             picResize.thumbnail(size=Size)
             picResize.save( path1 + FolderThumbnails + namepic[0] + ".png","png")
@@ -67,16 +67,16 @@ def WriteFile(folder,files):
     if choice == ("y" or "Y"):
         f = open(str(path2) + "\\" + fileText,"w")
         for i in pictures:
+            namepic = str(i).split(".")
             path = str(str("..\\img\\") + PathFolder[1] + '\\' + str(i))
-            paththumbnails = str(str("..\\img\\") + PathFolder[1] + '\\thumbnails\\' + str(i))
-            f.write(("<a href=" + "'" + path + "'" + str(" data-lightbox= ''") + str(" data-title=") + "'" + str(i) + "'" + str("> <img class= ") + "'" + str("illustrations") + "'" + str(" src=") + "'" + paththumbnails + "'" + str(" alt=") + "'" + str(i) + "'" + str("></a>" + "\n")))
+            paththumbnails = str(str("..\\img\\") + PathFolder[1] + '\\thumbnails\\' + str(namepic[0]) + ".png")
+            f.write(("<a href=" + "'" + path + "'" + str(" data-lightbox= ") + "'" + str("illustrations") + "' " + str(" data-title=") + "'" + str(i) + "'" + str("> <img class= ") + "'" + str("illustrations") + "'" + str(" src=") + "'" + paththumbnails + "'" + str(" alt=") + "'" + str(i) + "'" + str("></a>" + "\n")))
         f.close()
         restart()
     elif choice == ("n" or "N"):
-        restart()
+        return restart()
     else:
         return WriteFile(folder=path2)
-    
 
 #Rejoues le script ou non
 def restart():
