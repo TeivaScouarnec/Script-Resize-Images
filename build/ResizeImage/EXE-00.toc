@@ -62,7 +62,7 @@
  [],
  False,
  False,
- 1636117682,
+ 1636126593,
  [('run.exe',
    'C:\\Users\\Sheep\\Documents\\Programmation\\Python\\Script '
    'Resize-Images\\env\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
