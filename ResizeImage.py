@@ -70,7 +70,7 @@ def WriteFile(folder,files):
             namepic = str(i).split(".")
             path = str(str("..\\img\\") + PathFolder[1] + '\\' + str(i))
             paththumbnails = str(str("..\\img\\") + PathFolder[1] + '\\thumbnails\\' + str(namepic[0]) + ".png")
-            f.write(("<a href=" + "'" + path + "'" + str(" data-lightbox= ") + "'" + str("illustrations") + "' " + str(" data-title=") + "'" + str(i) + "'" + str("> <img class= ") + "'" + str("illustrations") + "'" + str(" src=") + "'" + paththumbnails + "'" + str(" alt=") + "'" + str(i) + "'" + str("></a>" + "\n")))
+            f.write(("<a href=" + "'" + path + "'" + str("> <img class= ") + "'" + str("pictures") + "'" + str(" src=") + "'" + paththumbnails + "'" + str(" alt=") + "'" + str(i) + "'" + str("></a>" + "\n")))
         f.close()
         restart()
     elif choice == ("n" or "N"):
